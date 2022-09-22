@@ -1,2 +1,4 @@
 *.pdf
 *.class
+.DS_Store
+test.*
