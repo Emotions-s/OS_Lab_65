@@ -1,3 +1,6 @@
 *.class
 .DS_Store
 test.*
+test?.*
+test
+test?
