@@ -3,12 +3,14 @@
     from handler
     Writing to memory: os kmitl
 
-2) output ./q3 & ./q4:
+2) output ./q3 ./q4 &:
     ./q4:
+	[1] 84742
         from handler from handler From child: os kmitl
+	[1] + 84742 done	./q4
     ./q3
         successfully obtain ppid
-        ppid = 77994, Btw SIGUSR1 = 30
+        ppid = 84742, Btw SIGUSR1 = 30
         waiting for SIG before writing to server
         Clnt write to mem & notify: os kmitl
 
