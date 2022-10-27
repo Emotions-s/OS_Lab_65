@@ -1,0 +1,24 @@
+(1)
+1.1) exitCriticalSection(0);
+1.2) enterCriticalSection(1);
+1.3)
+    all: goodCnt
+
+    goodCnt: lab9_q1.o peterson.o
+        gcc -o goodCnt lab9_q1.o peterson.o
+
+    lab9_q1.o: lab9_q1.c
+        gcc -c lab9_q1.c
+
+    peterson.o: peterson.c
+        gcc -c peterson.c
+
+    clean:
+        rm -rf *.o goodCnt
+
+(2)
+2.1) sem_wait(&mySemaphore);
+2.2) sem_init(&mySemaphore, 0, 1);
+2.3)    thr 6167769088 exits. lastSeen = 200000
+        Last cnt from tid[0] is 200000
+        final cnt = 200000
