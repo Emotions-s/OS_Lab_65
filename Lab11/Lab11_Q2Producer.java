@@ -25,7 +25,7 @@ public class Lab11_Q2Producer extends Thread {
                 } // catch
             } // while
         } else {
-            int i = 0;
+            int i = -1;
             while (i < 29) { // before last dish
                 i += 2;
                 try { // sleep(4);
