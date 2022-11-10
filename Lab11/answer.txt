@@ -1,3 +1,4 @@
+// 64050177 pisit pruangprat
 Q1 notifyAll();
 Q2 synchronized
 Q3 wait();
